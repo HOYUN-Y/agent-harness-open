@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/env)",
+      "Read(**/env_*)",
+      "Read(**/env-*)",
+      "Read(**/*_env.txt)",
+      "Read(**/*-env.txt)",
+      "Read(**/*.env.txt)",
+      "Read(**/*_env)",
+      "Read(**/*-env)",
+      "Read(**/*token*)",
+      "Read(**/*.env)",
+      "Read(**/env.*)",
+      "Read(**/*key.txt)",
+      "Read(**/*keys.txt)",
+      "Read(**/*.pem)",
+      "Read(**/*.ppk)",
+      "Read(**/*.p12)",
+      "Read(**/*.pfx)",
+      "Read(**/*.keystore)",
+      "Read(**/id_rsa*)",
+      "Read(**/id_ed25519*)",
+      "Read(**/id_ecdsa*)",
+      "Read(**/.netrc)",
+      "Read(**/*secret*)",
+      "Read(**/*credential*)",
+      "Read(**/*password*)",
+      "Read(**/*비밀번호*)",
+      "Read(**/*api*key*)",
+      "Edit(/src-*/**)"
+    ]
+  }
+}
